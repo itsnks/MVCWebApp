@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MVCWebApp.Models;
 
 namespace MVCWebApp.Data
 {
@@ -8,5 +9,6 @@ namespace MVCWebApp.Data
         {
             
         }
+        public DbSet <Category> Categories { get; set; }
     }
 }
